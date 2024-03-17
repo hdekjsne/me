@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .width100ps {
@@ -101,6 +102,21 @@ a {
 
 iframe {
   border-radius: 20px;
+}
+
+@media (max-width: 699px) {
+  .wrap {
+    width: 100vw;
+  }
+  .info {
+    flex-direction: column;
+  }
+  .img-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
